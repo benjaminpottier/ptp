@@ -5,6 +5,8 @@
 
 ```bash
 ptp.py --top10
+```
+```
 {"21 Bridges AKA Manhattan Lockdown": "210804"}
 {"Jojo Rabbit": "210862"}
 {"Midway": "210863"}
@@ -19,6 +21,8 @@ ptp.py --top10
 
 ```bash
 ptp.py --list-torrents 210804
+```
+```
 {"ReleaseName": "21.Bridges.2019.BDRip.x264-AAA", "Id": "748690"}
 {"ReleaseName": "21.Bridges.2019.AMZN.WEB-DL.DDP2.0.H.264-NTG", "Id": "748254"}
 {"ReleaseName": "21.Bridges.2019.720p.AMZN.WEB-DL.DDP5.1.H.264-NTG", "Id": "748255"}
