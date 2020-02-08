@@ -1,7 +1,7 @@
 # ptp
 
 
-**Exampple:**
+**Example:**
 
 ```bash
 ptp.py --top10
