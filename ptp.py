@@ -51,13 +51,13 @@ def logout(session, url, key):
 
 
 def get_session(url):
-    params = {'username': USER, 'password': PASSWORD,
-              'passkey': PASSKEY, 'keeplogged': KEEPLOGGED}
-    session = requests.Session()
     try:
-        request = session.post(url, data=params)
+        params = {'username': USER, 'password': PASSWORD,
+              'passkey': PASSKEY, 'keeplogged': KEEPLOGGED}
+        session = requests.Session()
+        session.post(url, data=params)
     except Exception as e:
-        raise
+        raise e
     return session
 
 
